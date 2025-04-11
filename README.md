@@ -28,7 +28,7 @@ A VBA script to batch rename files in a folder with a user-friendly interface, f
 ### 2. Add the VBA Script
 - Open Excel and press `Alt + F11` to access the VBA Editor.
 - **Add Module**:
-  - Go to **Insert** > **Module**, paste the code from [`BatchRenameFilesInFolder.vba`](BatchRenameFilesInFolder.vba).
+  - Go to **Insert** > **Module**, paste the code from [`BatchRename.vba`](BatchRename.vba).
 - **Add UserForm**:
   - Go to **Insert** > **UserForm**, name it `BatchRenameForm`.
   - Add controls as described in [`BatchRenameForm.vb`](BatchRenameForm.vb) under "UserForm Layout".
