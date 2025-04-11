@@ -1,7 +1,7 @@
-' Module: BatchRenameFilesInFolder
+' Module: BatchRename
 Option Explicit
 
-Sub BatchRenameFilesInFolder()
+Sub BatchRename()
     ' Launch the UserForm
     With New BatchRenameForm
         .Show
