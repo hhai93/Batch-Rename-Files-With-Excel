@@ -31,7 +31,7 @@ A VBA script to batch rename files in a folder with a user-friendly interface, f
   - Go to **Insert** > **Module**, paste the code from [`BatchRename.vba`](BatchRename.vba).
 - **Add UserForm**:
   - Go to **Insert** > **UserForm**, name it `BatchRenameForm`.
-  - Add controls as described in [`BatchRenameForm.vb`](BatchRenameForm.vb) under "UserForm Layout".
+  - Add controls as described in [`BatchRenameForm.vba`](BatchRenameForm.vba) under "UserForm Layout".
   - Paste the code from "UserForm Code" into the UserForm's code window.
 - Save the file as `.xlsm` (macro-enabled).
 
@@ -50,7 +50,7 @@ A VBA script to batch rename files in a folder with a user-friendly interface, f
 ## 💡 Code Explanation
 - **`BatchRename.vba`**:
   - Launches the UserForm and includes a folder picker helper function.
-- **`BatchRenameForm.vb`**:
+- **`BatchRenameForm.vba`**:
   - **UserForm**: Interface for folder selection and renaming options.
   - **Preview**: Generates new names and logs them in the sheet.
   - **Rename**: Applies changes based on the preview.
